@@ -681,6 +681,47 @@ header {
     color: #fff;
 }
 
+/*------------------------------------*\
+	About
+\*------------------------------------*/
+
+.about_research {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #EEE;
+    margin: 15px 0px;
+    background: White;
+}
+
+.about_research i {
+    font-size: 36px;
+    color: #6195FF;
+    margin-bottom: 20px;
+}
+
+.about_research:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.about_research:hover:after {
+    width: 100%;
+}
+
+.about_research h3 {
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
 
 /*------------------------------------*\
 	Portfolio

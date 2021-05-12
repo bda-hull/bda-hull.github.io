@@ -61,13 +61,14 @@
 					<!-- /Collapse nav button -->
 				</div>
 
-			<!--  Main navigation  -->
+				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
-					<li><a href="index.html#home">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="index.html#research">Research</a>
+					<li><a href="index.html#projects">Projects</a>					
 					<li><a href="publications.html">Publications</a></li>
 					<li><a href="index.html#team">Team</a></li>
-					<li><a href="index.html#news">News, Projects + Activities</a></li>
+					<li><a href="index.html#news">News & Activities</a></li>
 					<li><a href="index.html#contact">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -110,21 +111,20 @@
 <p>Complete list of our group and member's publications. Click tags to sort by topic.</p>
 
 
-						<!-- publication entry -->
+					<!-- publication entry -->
 
 						<div class="blog-content">
-							<h3>Transparent Deep Learning and Transductive Transfer Learning: A New Dimension for Wind Energy Research.</h3>
+							<h3>Exploiting Latent Representation of Sparse Semantic Layers for Improved Short-Term Motion Prediction with Capsule Networks.</h3>
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="joyjit.html">Chatterjee, J.</a>
-								</li>							
-							<li>
-									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
-								</li>									
+									<a href="index.html#team">Dulian, A.</a>
+								</li>
+		<li>
+							Murray, J.
+								</li>															
 								<li>
-								<!--<a href="https://www.climatechange.ai/CameraReadySubmissions%202-119/22/CameraReadySubmission/neurips_2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 -->
+								<a href="https://arxiv.org/abs/2103.01644"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
 							</ul>
 
 							<ul class="blog-meta">
@@ -133,20 +133,108 @@
 										<summary>
 											<span style="color:#6195FF">Hide/Show Full Abstract</span>
 										</summary>
-										Wind turbines suffer from operational inconsistencies due to a variety of factors, ranging from environmental changes, to intrinsic anomalies in specific components, such as gearbox, generator, pitch system etc.  Condition monitoring of wind turbines has been a critical research area in the last decade, wherein the Supervisory Control & Data Acquisition (SCADA) data is used to analyse the operational behaviour of the turbine and predict any incipient faults to prevent catastrophic losses caused by unexpected failures. Machine learning models have formed a large part of the data-analytics based methods used for learning from historical failures through supervised learning, but they suffer from the lack of ability to provide additional capabilities for learning with little labelled data, or for that matter, no labelled faults in a different domain. Deep learning has shown immense success in areas where time-series data is to be modelled. In this paper, we propose a hybrid deep learning model combining a Long short-term memory network (LSTM) with XGBoost, a decision tree-based classifier for providing the benefits of accuracy through deep learning, and transparency through traditional decision trees. Our study shows that Transfer learning allows us to make predictions with increasing accuracy on unseen data; which is useful for simulations of new operations, new wind farms or other cases of non-available training data. This can help reduce downtime of turbines through predictive maintenance, by predicting incipient faults, or provide corrective maintenance, by assisting the engineers and technicians to analyse the root causes behind the failure, thus contributing to the reliability and uptake of wind energy as a sustainable and promising domain. 
+As urban environments manifest high levels of complexity it is of vital importance that safety systems embedded within autonomous vehicles (AVs) are able to accurately anticipate short-term future motion of nearby agents. This problem can be further understood as generating a sequence of coordinates describing the future motion of the tracked agent. Various proposed approaches demonstrate significant benefits of using a rasterised top-down image of the road, with a combination of Convolutional Neural Networks (CNNs), for extraction of relevant features that define the road structure (eg. driveable areas, lanes, walkways). In contrast, this paper explores use of Capsule Networks (CapsNets) in the context of learning a hierarchical representation of sparse semantic layers corresponding to small regions of the High-Definition (HD) map. Each region of the map is dismantled into separate geometrical layers that are extracted with respect to the agent's current position. By using an architecture based on CapsNets the model is able to retain hierarchical relationships between detected features within images whilst also preventing loss of spatial data often caused by the pooling operation. We train and evaluate our model on publicly available dataset nuTonomy scenes and compare it to recently published methods. We show that our model achieves significant improvement over recently published works on deterministic prediction, whilst drastically reducing the overall size of the network. 
 									</details>
 								</abstract>
 							</ul>
 							<ul class="blog-meta">
-								<li>2019. In WindEurope Offshore, Copenhagen, Denmark.</li>
+								<li>2021 International Conference on Robotics and Automation (ICRA).</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+			
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+
+					<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>Scientometric review of artificial intelligence for operations & maintenance of wind turbines: The past, present and future.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+								<a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032121003403"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+	Wind energy has emerged as a highly promising source of renewable energy in recent times. However, wind turbines regularly suffer from operational inconsistencies, leading to significant costs and challenges in operations and maintenance (O&M). Condition-based monitoring (CBM) and performance assessment/analysis of turbines are vital aspects for ensuring efficient O&M planning and cost minimisation. Data-driven decision making techniques have witnessed rapid evolution in the wind industry for such O&M tasks during the last decade, from applying signal processing methods in early 2010 to artificial intelligence (AI) techniques, especially deep learning in 2020. In this article, we utilise statistical computing to present a scientometric review of the conceptual and thematic evolution of AI in the wind energy sector, providing evidence-based insights into present strengths and limitations of data-driven decision making in the wind industry. We provide a perspective into the future and on current key challenges in data availability and quality, lack of transparency in black box-natured AI models, and prevailing issues in deploying models for real-time decision support, along with possible strategies to overcome these problems. We hope that a systematic analysis of the past, present and future of CBM and performance assessment can encourage more organisations to adopt data-driven decision making techniques in O&M towards making wind energy sources more reliable, contributing to the global efforts of tackling climate change.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2021. Renewable and Sustainable Energy Reviews 144.</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>A divide-and-conquer approach to neural natural language generation from structured data.</h3>
+							<ul class="blog-meta">	
+			<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>	
+				<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Schoene, A.</a>
+								</li>		
+						
+			<li>
+									Cuayahuitl, H.
+								</li>																																					
+								<li>
+						<a href="https://hull-repository.worktribe.com/output/3709268"><i class="fa fa-cloud-download"></i></a>PDF</li>	
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Current approaches that generate text from linked data for complex real-world domains can face problems including rich and sparse vocabularies as well as learning from examples of long varied sequences. In this article, we propose a novel divide-and-conquer approach that automatically induces a hierarchy of “generation spaces” from a dataset of semantic concepts and texts. Generation spaces are based on a notion of similarity of partial knowledge graphs that represent the domain and feed into a hierarchy of sequence-to-sequence or memory-to-sequence learners for concept-to-text generation. An advantage of our approach is that learning models are exposed to the most relevant examples during training which can avoid bias towards majority samples. We evaluate our approach on two common benchmark datasets and compare our hierarchical approach against a flat learning setup. We also conduct a comparison between sequence-to-sequence and memory-to-sequence learning models. Experiments show that our hierarchical approach overcomes issues of data sparsity and learns robust lexico-syntactic patterns, consistently outperforming flat baselines and previous work by up to 30%. We also find that while memory-to-sequence models can outperform sequence-to-sequence models in some cases, the latter are generally more stable in their performance and represent a safer overall choice.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2021. Neurocomputing 433, 300-309.</li>
 							</ul>
 							<!-- blog tags -->
 							<div class="blog-tags">
 								<h5>Tags :</h5>
 								<a href="deep_learning.html#publications">
 									<i class="fa fa-tag"></i>Deep Learning</a>
-								<a href="natural.html#publications">
-									<i class="fa fa-tag"></i>Data and Natural World</a>									
+								<a href="nlp.html#publications">
+									<i class="fa fa-tag"></i>Natural Language Processing</a>									
 							</div>
 						</div>
 						<!-- blog tags -->
@@ -156,18 +244,25 @@
 						<!-- publication entry -->
 
 						<div class="blog-content">
-							<h3>Natural Language Generation for Operations and Maintenance in Wind Turbines.</h3>
+							<h3>Hierarchical Multiscale Recurrent Neural Networks for Detecting Suicide Notes.</h3>
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="joyjit.html">Chatterjee, J.</a>
-								</li>							
+									<a href="index.html#team">Schoene, A.</a>
+								</li>						
 							<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
-								</li>									
+									<a href="index.html#team">Turner, A.</a>
+								</li>	
+			<li>
+									de Mel, G.
+								</li>		
+			<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>																							
 								<li>
-								<a href="https://www.climatechange.ai/CameraReadySubmissions%202-119/22/CameraReadySubmission/neurips_2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+								<a href="file:///Users/nina/Downloads/TAC_Journal.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	
 							</ul>
 
 							<ul class="blog-meta">
@@ -176,38 +271,390 @@
 										<summary>
 											<span style="color:#6195FF">Hide/Show Full Abstract</span>
 										</summary>
-										Wind energy is one of the fastest-growing sustainable energy sources in the world
-but relies crucially on efficient and effective operations and maintenance to generate
-sufficient amounts of energy and reduce downtime of wind turbines and associated
-costs. Machine learning has been applied to fault prediction in wind turbines,
-but these predictions have not been supported with suggestions on how to avert
-and fix faults. We present a data-to-text generation system using transformers to
-produce event descriptions from SCADA data capturing the operational status of
-turbines and proposing maintenance strategies. Experiments show that our model
-learns feature representations that correspond to expert judgements. In making a
-contribution to the reliability of wind energy, we hope to encourage organisations
-to switch to sustainable energy sources and help combat climate change.
+										Recent statistics in suicide prevention show that people are increasingly posting their last words online and with the
+unprecedented availability of textual data from social media platforms researchers have the opportunity to analyse such data.
+Furthermore, psychological studies have shown that our state of mind can manifest itself in the linguistic features we use to
+communicate. In this paper, we investigate whether it is possible to automatically identify suicide notes from other types of social media
+blogs in two document-level classification tasks. The first task aims to identify suicide notes from depressed and blog posts in a
+balanced dataset, whilst the second experiment looks at how well suicide notes can be classified when there is a vast amount of
+neutral text data, which makes the task more applicable to real-world scenarios. Furthermore we perform a linguistic analysis using
+LIWC (Linguistic Inquiry and Word Count). We present a learning model for modelling long sequences in two experiment series. We
+achieve an f1-score of 88.26% over the baselines of 0.60 in experiment 1 and 96.1% over the baseline in experiment 2. Finally, we
+show through visualisations which features the learning model identifies, these include emotions such as love and personal pronouns.
 									</details>
 								</abstract>
 							</ul>
 							<ul class="blog-meta">
-								<li>2019. In NeurIPS 2019 Workshop on Tackling Climate Change with Machine Learning. Vancouver, Canada.</li>
+								<li>2021. IEEE Transactions on Affective Computing.</li>
 							</ul>
 							<!-- blog tags -->
 							<div class="blog-tags">
 								<h5>Tags :</h5>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+								<a href="nlp.html#publications">
+									<i class="fa fa-tag"></i>Natural Language Processing</a>									
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+
+					<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>XAI4Wind: A Multimodal Knowledge Graph Database for Explainable Decision Support in Operations & Maintenance of Wind Turbines.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+								<a href="https://arxiv.org/pdf/2012.10489.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Condition-based monitoring (CBM) has been widely utilised in the wind industry for monitoring operational inconsistencies and failures in turbines,
+with techniques ranging from signal processing and vibration analysis to
+artificial intelligence (AI) models using Supervisory Control & Acquisition
+(SCADA) data. However, existing studies do not present a concrete basis to facilitate explainable decision support in operations and maintenance
+(O&M), particularly for automated decision support through recommendation of appropriate maintenance action reports corresponding to failures predicted by CBM techniques. Knowledge graph databases (KGs) model a
+collection of domain-specific information and have played an intrinsic role
+for real-world decision support in domains such as healthcare and finance,
+but have seen very limited attention in the wind industry. We propose
+XAI4Wind, a multimodal knowledge graph for explainable decision support
+in real-world operational turbines and demonstrate through experiments several use-cases of the proposed KG towards O&M planning through interactive
+query and reasoning and providing novel insights using graph data science
+algorithms. The proposed KG combines multimodal knowledge like SCADA
+parameters and alarms with natural language maintenance actions, images
+etc. By integrating our KG with an Explainable AI model for anomaly prediction, we show that it can provide effective human-intelligible O&M strategies
+for predicted operational inconsistencies in various turbine sub-components.
+This can help instil better trust and confidence in conventionally black-box
+AI models. We make our KG publicly available and envisage that it can
+serve as the building ground for providing autonomous decision support in
+the wind industry.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>arXiv preprint arXiv:2012.10489, 2020.</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+									<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>	
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+						
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>Improving the Transparency of Deep Neural Networks using Artificial
+Epigenetic Molecules.</h3>
+							<ul class="blog-meta">	
+			<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Lacey, G.</a>
+								</li>	
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Schoene, A.</a>
+								</li>		
+						<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Schoene, A.</a>
+								</li>	
+					<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Turner, A.</a>
+								</li>																																														
+								<li>
+						<a href="https://www.scitepress.org/Papers/2020/101053/101053.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Artificial gene regulatory networks (AGRNs) are connectionist architectures inspired by biological gene regulation capable of solving tasks within complex dynamical systems. The implementation of an operational
+layer inspired by epigenetic mechanisms has been shown to improve the performance of AGRNs, and improve
+their transparency by providing a degree of explainability. In this paper, we apply artificial epigenetic layers
+(AELs) to two trained deep neural networks (DNNs) in order to gain an understanding of their internal workings, by determining which parts of the network are required at a particular point in time, and which nodes
+are not used at all. The AEL consists of artificial epigenetic molecules (AEMs) that dynamically interact with
+nodes within the DNNs to allow for the selective deactivation of parts of the network.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2020.  Proceedings of the 12th International Joint Conference on Computational Intelligence (IJCCI).</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep learning</a>									
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->						
+
+					<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>Deep reinforcement learning for maintenance planning of offshore vessel transfer.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+								<a href="https://books.google.co.uk/books?hl=en&lr=&id=ORn9DwAAQBAJ&oi=fnd&pg=PA435&dq=info:7QrTTf6aMXsJ:scholar.google.com&ots=PUOH0LqCjM&sig=m8B1JUXFtO53fvrRE-dUcrSiPrw&redir_esc=y#v=onepage&q&f=false"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Offshore wind farm operators need to make short-term decisions on planning vessel transfers to turbines for preventive or corrective maintenance. These decisions can play a pivotal role in ensuring maintenance actions are carried out in a timely and cost-effective manner. The present optimization of offshore vessel transfer uses mathematical models rather than learning decisions from historical data. In this paper, we design a simulated environment for an offshore wind farm based on Supervisory Control & Acquisition (SCADA) data and alarm logs of historical faults in an operational turbine. Firstly, we utilise a state-of-art decision tree model to predict fault types using SCADA features, and provide explainable decisions. Next, we apply deep reinforcement learning to automatically learn maintenance priorities corresponding to different fault types for ensuring prioritized vessel transfers for critical conditions, and deciding on optimal vessel fleet size. This can lead to significant savings in maintenance costs for the offshore wind industry.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>Developments in Renewable Energies Offshore: Proceedings of the 4th International Conference on Renewable Energies Offshore (RENEW 2020, 12-15 October 2020, Lisbon, Portugal).</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+						
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>Temporal Causal Inference in Wind Turbine SCADA Data Using Deep Learning for Explainable AI.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+								<a href="https://iopscience.iop.org/article/10.1088/1742-6596/1618/2/022022/pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Machine learning techniques have been widely used for condition-based monitoring
+of wind turbines using Supervisory Control & Acquisition (SCADA) data. However, many
+machine learning models, including neural networks, operate as black boxes: despite performing
+suitably well as predictive models, they are not able to identify causal associations within
+the data. For data-driven system to approach human-level intelligence in generating effective
+maintenance strategies, it is integral to discover hidden knowledge in the operational data. In
+this paper, we apply deep learning to discover causal relationships between multiple features
+(confounders) in SCADA data for faults in various sub-components from an operational turbine
+using convolutional neural networks (CNNs) with attention. Our technique overcomes the black
+box nature of conventional deep learners and identifies hidden confounders in the data through
+the use of temporal causal graphs. We demonstrate the effects of SCADA features on a wind
+turbine’s operational status, and show that our technique contributes to explainable AI for wind
+energy applications by providing transparent and interpretable decision support.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>Journal of Physics: Conference Series, 2020.</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+						
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>Deep learning with knowledge transfer for explainable anomaly prediction in wind turbines.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+								<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/we.2510"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										The last decade has witnessed an increased interest in applying machine learning techniques to predict faults and anomalies in the operation of wind turbines. These e￿orts have lately been dominated by deep learning techniques which, as in other ￿elds, tend to outperform traditional machine learning algorithms given su￿cient amounts of training data. An important shortcoming of deep learning models is their lack of transparency – they operate as black boxes and typically do not provide rationales for their predictions, which can lead to a lack of trust in predicted out- puts. In this article, a novel hybrid model for anomaly prediction in wind farms is proposed, that combines a recurrent neural network approach for accurate classi￿cation with an XGBoost deci- sion tree classi￿er for transparent outputs. Experiments with an o￿shore wind turbine show that our model achieves a classi￿cation accuracy of up to 97%. The model is further able to generate detailed feature importance analyses for any detected anomalies, identifying exactly those com- ponents in a wind turbine that contribute to an anomaly. Finally, the feasibility of transfer learning is demonstrated for the wind domain by porting our “o￿shore" model to an unseen dataset from an onshore wind farm. The latter model achieves an accuracy of 65% and is able to detect 85% of anomalies in the unseen domain. These results are encouraging for application to wind farms for which no training data is available, e.g. because they have not been in operation for long.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2020. Wind Energy 23(8).</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>A Dual Transformer Model for Intelligent Decision Support for Maintenance of Wind Turbines.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Wind energy is one of the fastest-growing sustainable energy sources in the world but relies crucially on efficient and effective operations and maintenance to generate sufficient amounts of energy and reduce downtime of wind turbines and associated costs. Machine learning has been applied to fault prediction in wind turbines, but these predictions have not been supported with suggestions on how to avert and fix faults. We present a data-to-text generation system utilising transformers for generating corrective maintenance strategies for faults using SCADA data capturing the operational status of turbines. We achieve this in two stages: a first stage identifies faults based on SCADA input features and their relevance. A second stage performs content selection for the language generation task and creates maintenance strategies based on phrase-based natural language templates. Experiments show that our dual transformer model achieves an accuracy of up to 96.75% for alarm prediction and up to 75.35% for its choice of maintenance strategies during content-selection. A qualitative analysis shows that our generated maintenance strategies are promising. We make our human- authored maintenance templates publicly available, and include a brief video explaining our approach.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2020 International Joint Conference on Neural Networks (IJCNN).</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+		<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>								
 								<a href="nlp.html#publications">
 									<i class="fa fa-tag"></i>Natural Language Processing</a>
 								<a href="deep_learning.html#publications">
 									<i class="fa fa-tag"></i>Deep Learning</a>
-								<a href="natural.html#publications">
-									<i class="fa fa-tag"></i>Data and Natural World</a>									
+							</div>
+						</div>
+						<!-- blog tags -->
+
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>The Promise of Causal Reasoning in Reliable Decision Support for Wind Turbines.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>
+		<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>															
+								<li>
+								<a href="https://www.researchgate.net/profile/Joyjit-Chatterjee/publication/344438754_The_Promise_of_Causal_Reasoning_in_Reliable_Decision_Support_for_Wind_Turbines/links/5f758dde299bf1b53e03744e/The-Promise-of-Causal-Reasoning-in-Reliable-Decision-Support-for-Wind-Turbines.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										The global pursuit towards sustainable development is leading to increased adaptation of renewable energy sources. Wind turbines are
+promising sources of clean energy, but regularly suffer from failures
+and down-times, primarily due to the complex environments and
+unpredictable conditions wherein they are deployed. While various
+studies have earlier utilised machine learning techniques for fault
+prediction in turbines, their black-box nature hampers explainability and trust in decision making. We propose the application of
+causal reasoning in operations & maintenance of wind turbines using Supervisory Control & Acquisition (SCADA) data, and harness
+attention-based convolutional neural networks (CNNs) to identify
+hidden associations between different parameters contributing to
+failures in the form of temporal causal graphs. By interpreting these
+non-obvious relationships (many of which may have potentially
+been disregarded as noise), engineers can plan ahead for unforeseen
+failures, helping make wind power sources more reliable.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>Fragile Earth Workshop, KDD, August 2020, San Diego, CA</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
 							</div>
 						</div>
 						<!-- blog tags -->
 
 						<!-- publication entry -->
-
 
 						<!-- publication entry -->
 
@@ -216,7 +663,7 @@ to switch to sustainable energy sources and help combat climate change.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>							
 								<li>
 								<a href="publications/annika_aaai2020_dc.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
@@ -257,15 +704,15 @@ research plan and future directions of this work.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>															
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 								<!--	<a href="https://aiforsocialgood.github.io/neurips2019/accepted/track1/pdfs/45_aisg_neurips2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 -->
@@ -307,19 +754,117 @@ a human benchmark on the same task.
 						<!-- publication entry -->
 
 						<div class="blog-content">
+							<h3>Transparent Deep Learning and Transductive Transfer Learning: A New Dimension for Wind Energy Research.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>							
+							<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>									
+								<li>
+								<!--<a href="https://www.climatechange.ai/CameraReadySubmissions%202-119/22/CameraReadySubmission/neurips_2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 -->
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Wind turbines suffer from operational inconsistencies due to a variety of factors, ranging from environmental changes, to intrinsic anomalies in specific components, such as gearbox, generator, pitch system etc.  Condition monitoring of wind turbines has been a critical research area in the last decade, wherein the Supervisory Control & Data Acquisition (SCADA) data is used to analyse the operational behaviour of the turbine and predict any incipient faults to prevent catastrophic losses caused by unexpected failures. Machine learning models have formed a large part of the data-analytics based methods used for learning from historical failures through supervised learning, but they suffer from the lack of ability to provide additional capabilities for learning with little labelled data, or for that matter, no labelled faults in a different domain. Deep learning has shown immense success in areas where time-series data is to be modelled. In this paper, we propose a hybrid deep learning model combining a Long short-term memory network (LSTM) with XGBoost, a decision tree-based classifier for providing the benefits of accuracy through deep learning, and transparency through traditional decision trees. Our study shows that Transfer learning allows us to make predictions with increasing accuracy on unseen data; which is useful for simulations of new operations, new wind farms or other cases of non-available training data. This can help reduce downtime of turbines through predictive maintenance, by predicting incipient faults, or provide corrective maintenance, by assisting the engineers and technicians to analyse the root causes behind the failure, thus contributing to the reliability and uptake of wind energy as a sustainable and promising domain. 
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2019. In WindEurope Offshore, Copenhagen, Denmark.</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>									
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
+							<h3>Natural Language Generation for Operations and Maintenance in Wind Turbines.</h3>
+							<ul class="blog-meta">
+								<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Chatterjee, J.</a>
+								</li>							
+							<li>
+									<i class="fa fa-user"></i>
+									<a href="index.html#team">Dethlefs, N.</a>
+								</li>									
+								<li>
+								<a href="https://www.climatechange.ai/CameraReadySubmissions%202-119/22/CameraReadySubmission/neurips_2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	 
+							</ul>
+
+							<ul class="blog-meta">
+								<abstract style="display:inline" ;>
+									<details open style="display:inline;">
+										<summary>
+											<span style="color:#6195FF">Hide/Show Full Abstract</span>
+										</summary>
+										Wind energy is one of the fastest-growing sustainable energy sources in the world
+but relies crucially on efficient and effective operations and maintenance to generate
+sufficient amounts of energy and reduce downtime of wind turbines and associated
+costs. Machine learning has been applied to fault prediction in wind turbines,
+but these predictions have not been supported with suggestions on how to avert
+and fix faults. We present a data-to-text generation system using transformers to
+produce event descriptions from SCADA data capturing the operational status of
+turbines and proposing maintenance strategies. Experiments show that our model
+learns feature representations that correspond to expert judgements. In making a
+contribution to the reliability of wind energy, we hope to encourage organisations
+to switch to sustainable energy sources and help combat climate change.
+									</details>
+								</abstract>
+							</ul>
+							<ul class="blog-meta">
+								<li>2019. In NeurIPS 2019 Workshop on Tackling Climate Change with Machine Learning. Vancouver, Canada.</li>
+							</ul>
+							<!-- blog tags -->
+							<div class="blog-tags">
+								<h5>Tags :</h5>
+								<a href="nlp.html#publications">
+									<i class="fa fa-tag"></i>Natural Language Processing</a>
+								<a href="deep_learning.html#publications">
+									<i class="fa fa-tag"></i>Deep Learning</a>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>									
+							</div>
+						</div>
+						<!-- blog tags -->
+
+						<!-- publication entry -->
+
+						<!-- publication entry -->
+
+						<div class="blog-content">
 							<h3>Dilated LSTM with ranked units for classification of suicide notes.</h3>
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>			
 					<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>								 				
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="https://aiforsocialgood.github.io/neurips2019/accepted/track1/pdfs/45_aisg_neurips2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	
@@ -353,9 +898,7 @@ through visualisations which features the learning model identifies.
 								<a href="nlp.html#publications">
 									<i class="fa fa-tag"></i>Natural Language Processing</a>
 								<a href="deep_learning.html#publications">
-									<i class="fa fa-tag"></i>Deep Learning</a>
-								<a href="bio_health.html#publications">
-									<i class="fa fa-tag"></i>Biology and Health</a>									
+									<i class="fa fa-tag"></i>Deep Learning</a>								
 							</div>
 						</div>
 						<!-- blog tags -->
@@ -371,19 +914,19 @@ through visualisations which features the learning model identifies.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>
 					<li>
 									<i class="fa fa-user"></i>
-									<a href="george.html">Lacey, G.</a>
+									<a href="index.html#team">Lacey, G.</a>
 								</li>				
 					<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>								 				
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="https://www.aclweb.org/anthology/D19-6217.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	
@@ -419,8 +962,7 @@ the same distinguishing features across documents as the linguistic analysis.
 									<i class="fa fa-tag"></i>Natural Language Processing</a>
 								<a href="deep_learning.html#publications">
 									<i class="fa fa-tag"></i>Deep Learning</a>
-								<a href="bio_health.html#publications">
-									<i class="fa fa-tag"></i>Biology and Health</a>										
+											
 							</div>
 						</div>
 						<!-- blog tags -->
@@ -428,9 +970,6 @@ the same distinguishing features across documents as the linguistic analysis.
 						<!-- publication entry -->
 						
 
-
-						<!-- publication entry -->
-							<div id="blog" class="section md-padding">
 							
 		<div class="blog-content">
 							<h3>Cross-dialectal speech processing</h3>
@@ -443,7 +982,7 @@ the same distinguishing features across documents as the linguistic analysis.
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>								
 <!--						<a href="publications/lacey-cec2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>									-->
 							</ul>
@@ -478,19 +1017,19 @@ Despite advances in technology, language diversity remains a challenge to the sp
 							<ul class="blog-meta">
 							<li>
 									<i class="fa fa-user"></i>
-									<a href="george.html">Lacey, G.</a>
+									<a href="index.html#team">Lacey, G.</a>
 								</li>							
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>																
 						<a href="publications/lacey-cec2019.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>									
 							</ul>
@@ -535,11 +1074,11 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="joyjit.html">Chatterjee, J.</a>
+									<a href="index.html#team">Chatterjee, J.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>					
 									<a href="http://nldl2019.org/"><i class="fa fa-external-link"></i></a>Link to workshop</li>									
 							</ul>
@@ -562,8 +1101,8 @@ modularity within the networks.
 								<h5>Tags :</h5>
 								<a href="deep_learning.html#publications">
 									<i class="fa fa-tag"></i>Deep Learning</a>
-								<a href="natural.html#publications">
-									<i class="fa fa-tag"></i>Data and Natural World</a>									
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>									
 							</div>
 						</div>
 
@@ -576,7 +1115,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 											<li><li><i class="fa fa-user"></i>Tyrrell, A.</li></li>	
 									<li><li><i class="fa fa-user"></i>Trefzer, M.</li></li>	
@@ -613,19 +1152,19 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="george.html">Lacey, G.</a>
+									<a href="index.html#team">Lacey, G.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 							</ul>
 
@@ -661,11 +1200,11 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/wisdom2018schoene.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>	
@@ -705,7 +1244,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/ieee_ci_final_draft.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -747,7 +1286,7 @@ modularity within the networks.
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="luana.html">Mincarelli, L.F.</a>
+									<a href="index.html#team">Mincarelli, L.F.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Benedetti, M.</li>
@@ -797,11 +1336,11 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="https://www.mitpressjournals.org/doi/abs/10.1162/ecal_a_0068_14"><i class="fa fa-external-link"></i></a>Link to article</li>
@@ -840,11 +1379,11 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<a href="publications/ldk2017.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -885,7 +1424,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hawick, K.</li>
@@ -928,7 +1467,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Milders, M.</li>
@@ -978,7 +1517,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Lones, M.</li>
@@ -1031,7 +1570,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Caves, L.</li>
@@ -1085,7 +1624,7 @@ modularity within the networks.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Keizer, S.</li>
@@ -1131,11 +1670,11 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="annika.html">Schoene, A.</a>
+									<a href="index.html#team">Schoene, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/Latech2016.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -1173,7 +1712,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -1225,7 +1764,7 @@ modularity within the networks.
 									<i class="fa fa-user"></i>Hastie, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -1270,7 +1809,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -1312,7 +1851,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Trefzer, M.</li>
@@ -1355,7 +1894,7 @@ modularity within the networks.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Trefzer, M.</li>
@@ -1403,7 +1942,7 @@ modularity within the networks.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Frommberger, L.</li>
@@ -1455,7 +1994,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -1506,7 +2045,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -1550,7 +2089,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -1604,7 +2143,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Gasic, M.</li>
@@ -1678,7 +2217,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Kruijff-Korbayová, I.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/acm-tiis2014.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -1718,7 +2257,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/compass2014.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -1759,7 +2298,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Frommberger, L.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Raux, A.</li>
@@ -1808,7 +2347,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Frommberger, L.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>van Otterlo, M.</li>
@@ -1848,7 +2387,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -1890,7 +2429,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -1947,7 +2486,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Gasic, M.</li>
@@ -2016,7 +2555,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Lones, M.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Caves, L.</li>
@@ -2064,7 +2603,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -2109,7 +2648,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="https://www.iospress.nl/book/hierarchical-joint-learning-for-natural-language-generation/"><i class="fa fa-external-link"></i></a>Link to book</li>
@@ -2151,7 +2690,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/nd-thesis2013.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -2193,7 +2732,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -2239,7 +2778,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>El Asri, L.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Henderson, M.</li>
@@ -2297,7 +2836,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Frommberger, L.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>van Otterlo, M.</li>
@@ -2340,7 +2879,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>van Otterlo, M.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Frommberger, L.</li>
@@ -2384,7 +2923,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -2435,7 +2974,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Gasic, M.</li>
@@ -2502,7 +3041,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Lones, M.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Fuente, F.</li>
@@ -2554,7 +3093,7 @@ discussion and exchange of ideas. [...]
 									<i class="fa fa-user"></i>Lones, M.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Stepney, S.</li>
@@ -2600,7 +3139,7 @@ discussion and exchange of ideas. [...]
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<a href="publications/Alexander Turner - PhD Thesis.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -2659,7 +3198,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Lones, M.</li>
@@ -2708,7 +3247,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Lones, M.</li>
@@ -2761,7 +3300,7 @@ activation or deactivation of these switches.
 									<i class="fa fa-user"></i>Lones, M.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Stepney, S.</li>
@@ -2810,7 +3349,7 @@ activation or deactivation of these switches.
 									<i class="fa fa-user"></i>Lones, M.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Stepney, S.</li>
@@ -2855,7 +3394,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Lones, M.</li>
@@ -2904,7 +3443,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -2951,7 +3490,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -3000,7 +3539,7 @@ activation or deactivation of these switches.
 									<i class="fa fa-user"></i>Kruijff-Korboyová, I.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/coling2012.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3038,7 +3577,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -3080,7 +3619,7 @@ activation or deactivation of these switches.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/mlis2012-robots.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3119,7 +3658,7 @@ activation or deactivation of these switches.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Rieser, V.</li>
@@ -3169,7 +3708,7 @@ activation or deactivation of these switches.
 									<i class="fa fa-user"></i>Frommberger, L.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Sahli, H.</li>
@@ -3212,7 +3751,7 @@ This workshop aims to bring researchers together that have an interest in more t
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/sdctd2012-online.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3256,7 +3795,7 @@ This workshop aims to bring researchers together that have an interest in more t
 									<i class="fa fa-user"></i>Lemon, O.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/sdctd2012-incremental.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3296,7 +3835,7 @@ This workshop aims to bring researchers together that have an interest in more t
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Hastie, H.</li>
@@ -3347,7 +3886,7 @@ This workshop aims to bring researchers together that have an interest in more t
 									<i class="fa fa-user"></i>Wood, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="alex.html">Turner, A.</a>
+									<a href="index.html#team">Turner, A.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Beukers-Stewart, B.</li>
@@ -3389,8 +3928,8 @@ reserves in ecosystem-based management of fisheries.
 							<!-- blog tags -->
 							<div class="blog-tags">
 								<h5>Tags :</h5>
-								<a href="natural.html#publications">
-									<i class="fa fa-tag"></i>Data and Natural World</a>
+								<a href="sustainability.html#publications">
+									<i class="fa fa-tag"></i>Sustainability</a>
 							</div>
 						</div>
 						<!-- blog tags -->
@@ -3406,7 +3945,7 @@ reserves in ecosystem-based management of fisheries.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/acm2011.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3447,7 +3986,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Wu, Y.</li>
@@ -3491,7 +4030,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -3535,7 +4074,7 @@ reserves in ecosystem-based management of fisheries.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/interspeech2011.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3574,7 +4113,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -3615,7 +4154,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -3654,7 +4193,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/enlg2011-give.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3694,7 +4233,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/yrrsds2011.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3733,7 +4272,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -3778,7 +4317,7 @@ reserves in ecosystem-based management of fisheries.
 									<i class="fa fa-user"></i>Thomas, K.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Andonova, E.</li>
@@ -3820,7 +4359,7 @@ reserves in ecosystem-based management of fisheries.
 							<ul class="blog-meta">
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
@@ -3871,7 +4410,7 @@ reserves in ecosystem-based management of fisheries.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Frommberger, L.</li>
@@ -3920,7 +4459,7 @@ reserves in ecosystem-based management of fisheries.
 									<i class="fa fa-user"></i>Schuette, N.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<a href="publications/inlg2010-give.pdf"><i class="fa fa-cloud-download"></i></a>PDF</li>
@@ -3960,7 +4499,7 @@ reserves in ecosystem-based management of fisheries.
 									<i class="fa fa-user"></i>Cuayáhuitl, H.</li>
 								<li>
 									<i class="fa fa-user"></i>
-									<a href="nina.html">Dethlefs, N.</a>
+									<a href="index.html#team">Dethlefs, N.</a>
 								</li>
 								<li>
 									<i class="fa fa-user"></i>Richter, K.-F.</li>
@@ -4017,7 +4556,7 @@ reserves in ecosystem-based management of fisheries.
 							<a href="interactive_systems.html#publications">Interactive Systems</a>
 							<a href="nlp.html#publications">Natural Language Processing</a>
 							<a href="bio_health.html#publications">Biology and Health</a>
-							<a href="natural.html#publications">Data and Natural World</a>
+							<a href="sustainability.html#publications">Sustainability</a>
 						</div>
 					</div>
 					<!-- /Category -->

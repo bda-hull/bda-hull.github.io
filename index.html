@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 	<title>Big Data Analytics Research Group</title>
 
 	<!-- Google font -->
@@ -70,9 +70,10 @@
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#research">Research</a>
+					<li><a href="#projects">Projects</a>					
 					<li><a href="publications.html">Publications</a></li>
 					<li><a href="#team">Team</a></li>
-					<li><a href="index.html#news">News, Projects + Activities</a></li>
+					<li><a href="index.html#news">News & Activities</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -105,7 +106,31 @@
 	<!-- /Header -->
 
 	<!-- About -->
-	<div id="research" class="section md-padding">
+	<div id="intro" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+			
+<i style="font-size:25pt; align:center;">Welcome! </i><p> We are the Big Data Analytics research group (BDA) in the <a href="https://www.hull.ac.uk/faculties/departments/research/department-of-computer-science-and-technology#content">Department of Computer Science</a> at the University of Hull.
+		 
+We are part of the larger research group on <a href="https://www.hull.ac.uk/work-with-us/research/groups/dependable-intelligent-systems">Dependable Intelligent Systems (DEIS)</a>.
+
+We do cutting-edge research in (deep) machine learning, artificial intelligence and natural language 
+processin and work with local and international 
+businesses on knowledge transfer and impact acceration projects. Many of our current projects have a sustainability angle. 
+We work closely with others parts of the university such as the 
+<a href="https://hpc.wordpress.hull.ac.uk/">Viper HPC team</a> and the 
+<a href="https://www.hull.ac.uk/work-with-us/research/institutes/energy-and-environment-institute">Energy and Environment Institute</a>.
+
+			</p>
+		
+				</div></div></div>
+
+	<!-- About -->
+	<div id="research" class="section md-padding bg-grey">
 
 		<!-- Container -->
 		<div class="container">
@@ -119,59 +144,95 @@
 				</div>
 				<!-- /Section header -->
 
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-magic"></i>
-						<h3>Deep Learning</h3>
-						<p>We apply deep learning in various research projects due to its suitability for feature learning  and its ability to identify patterns in large and noisy datasets.</p>
-						<a href="deep_learning.html">Read more</a>
-					</div>
-				</div>
-				<!-- /about -->
 
 				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-comments-o"></i>
-						<h3>Interactive Systems</h3>
-						<p>Interactive systems can interact with people using text, speech and touch and can be 
-						applied in expert systems, chat-/robots or assistive technologies.</p>
-						<a href="interactive_systems.html">Read more</a>
-					</div>
+				<div class="col-md-12">
+					<div class="about_research">	
+						<img class="img-responsive" src="./img/dl.jpeg" alt="" width="320" align="right">
+						<h3 align="left">Deep Learning and Data Analytics</h3>
+						<p align="left">We apply machine learning, mostly deep learning, in all our research projects, 
+						 due to its ability to learn features from large datasets and identify 
+						 patterns in disparate, large and noisy datasets. Most of our work on natural language processing and 
+						 other time-series applications uses LSTM/GRU or transformer models (e.g. for sentiment analysis, natural language generation) 
+						 while other projects in image analysis and sensory output analysis have used CNNs or autoencoders.</p>
+						<p align="left">Our research in this area focuses on deep learning models that are transparent and
+						interpretable and can explain the rationales behind their actions - this is important in many commercial
+						and real-life applications to increase trust, helps to avoid bias and discrimination in AI models, 
+						and makes them generally more accountable. </p>						 
+					<p align="left">We are also interested in fast learning systems and investigate topics in transfer learning, 
+					divide-and-conquer approaches to learning and efficiency. See our <a href="deep_learning.html#publications">deep learning publications</a> for details.</p>							
 				</div>
 				<!-- /about -->
-
-		
+				
 				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-sitemap"></i>
-						<h3>Natural Language Processing</h3>
-						<p>Our strengths in NLP lie in natural language generation, (spoken) dialogue systems, sentiment analysis and computational linguistics.</p>
-						<a href="nlp.html">Read more</a>
+				<div class="col-md-12">
+					<div class="about_research">	
+						<img class="img-responsive" src="./img/text.jpeg" alt="" width="250" align="left">
+						<h3 align="right">Natural Language and Social Media</h3>
+						<p align="right">Natural language processing (NLP) refers to approaches that analyse, generate and 
+						process natural language automatically using computational techniques and algorithms, mostly based on 
+						machine learning. Our strengths lie in natural language generation, that is the automatic generation of 
+						language from non-linguistic data sources, such as data-to-text generation, (spoken) dialogue systems, i.e. systems
+						that engage in conversations with users to solve problems or provide information, sentiment 
+						analysis in text and social media and text classification and analysis. </p>
+						<p align="right">We are also interested in social media analysis, including projects on sentiment analysis
+						and mental health based on linguistic profiling, flood forecasting and emergency situation assessment from social media and topics in digital
+						conservation, such as public opinion mining and the monitoring of species. 
+						See our <a href="nlp.html#publications">natural language processing publications</a> for details.</p>						
 					</div>
 				</div>
-				<!-- /about -->
+				<!-- /about -->				
+				
+				<!-- about -->
+				<div class="col-md-12">
+					<div class="about_research">	
+						<img class="img-responsive" src="./img/tree.jpg" alt="" width="350" align="right">
+						<h3 align="left">Interactive Systems and Decision Support </h3>
+						<p align="left">Interactive systems can interact with their users in different ways, including text, 
+						speech, haptic or other multimodal input. A common distinction is between task-oriented interactive 
+						systems that target a particular domain, e.g. answering user queries on restaurant or tourist attractions 
+						in the local area, and open-domain systems who attempt to answer any question, e.g. using information 
+						retrieval methods from the web. Most personal assistant fall into the latter category. Finally, 
+						chatbots have no purpose of informing but rather aim to entertain users by engaging in casual chat.</p>
+						<p align="left">Our group is interested in human-like behaviour of interactive systems, e.g. the incremental
+						planning of utterances and the analysis of linguistic features in different conversational contexts.
+						Most recently we have worked on interactive decision support systems for various
+						real-life applications, most notably in the wind domain, where we use interaction as a way to provide
+						easy and intuitive access to the inner workings of wind turbines to support operations and maintenance.
+						See our <a href="interactive_systems.html#publications">interactive systems publications</a> for details.</p>												
+					</div>
+				</div>
+				<!-- /about -->				
+				
+				<!-- about -->
+				<div class="col-md-12">
+					<div class="about_research">	
+						<img class="img-responsive" src="./img/satellite.jpg" alt="" width="300" align="left"
+						style="padding: 20px;">
+						<h3 align="right">Sustainability and the Environment</h3>
+						<p align="right">We are in applying AI and machine learning techniques to help solve problems in 
+						sustainability and environmental research. We are part of the EPSRC Aura CDT on Offshore Wind and 
+						the Environment, so we have a strong interest in the digitalisation of offshore wind. As part of this, 
+						we use AI to improve operations and maintenance
+						of wind turbines to improve their reliability and usability as an alternative to fossil fuel-based 
+						energy sources. We achieve this through detailed and explainable fault forecasting
+						and the automatic generation of maintenance strategies from expert knowledge sources. </p></br>
+						<p align="right">Other research includes the forecasting of floods from
+						high-frequency and social media data sources and the monitoring of water 
+						quality in the North Sea from sensory data and satellite images to achieve longer-term forecasting
+						of the effects of human activity or environmental factors on water quality. We are currently growing
+						our research on using AI towards the conservation of species. 					
+						See our <a href="sustainability.html#publications">sustainability publications</a> for details.</p>
+					</div>
+				</div>
+				<!-- /about -->	
 
 
 				<!-- /about -->
 
 			</div>
 			<!-- /Row -->	
-			
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-tree"></i>
-						<h3>Data and the Natural World</h3>
-						<p>We apply deep learning and evolutionary algorithms in projects with natural sciences including
-						biology and chemistry.</p>
-						<a href="natural.html">Read more</a>
-					</div>
-				</div>
-				<!-- /about -->
+		
 
 
 				<!-- /about -->
@@ -184,10 +245,149 @@
 
 	</div>
 	<!-- /About -->
-	
+
+
+	<!-- About -->
+	<div id="projects" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Projects</h2>
+				</div>
+				<!-- /Section header -->
+				
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-calendar" style="color:LightSeaGreen;"></i>
+						<h3>Physics-informed machine learning for rapid fatigue assessments in offshore wind farms</h3>
+						<p>This project proposes an industry-compatible step-change advance in accumulated fatigue assessment via novel integration of physical modelling and machine learning.<p> 
+						<p>With the <a href="https://www.hull.ac.uk/work-with-us/research/institutes/energy-and-environment-institute">EEI</a>
+						and <a href="https://drg.ac.uk/">University of Sheffield</a>.</p>
+						<p><em>EPSRC Supergen ORE, 2021-22 (PI)</em></p>							
+						<a href="https://supergen-ore.net/projects/machine-learning-for-fatigue-assessments-offshore-wind-farms">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->				
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-flask" style="color:MediumBlue;"></i>
+						<h3>KTP with reckitt</h3>
+						<p>We develop novel algorithms to improve stability testing of new product formulations and accelerate 
+						their launch from initial conception and design 
+						through to testing and manufacturing. This will accelerate product improvement and enhance reckitt's
+					capacity to react to customer feedback and product reviews.</p>
+						<p><em>Innovate UK, 2021-23 (PI)</em></p>
+					</div>
+				</div>
+				<!-- /about -->	
+				
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-gears" style="color:#d20050;"></i>
+						<h3>Aura CDT</h3>
+						<p>We are part of the EPSRC Aura CDT on Offshore Wind and the Environment and 
+						research theme lead for "Big data, sensors and digitalisation for the offshore environment".</p>
+						<p>With partner institutions Sheffield, Durham and Newcastle.</p>
+						<p><em>EPSRC, NERC 2019-27 (CI)</em></p>
+						<a href="https://auracdt.hull.ac.uk/">See Details</a>						
+					</div>
+				</div>
+				<!-- /about -->				
+
+
+			</div>
+			<!-- /Row -->	
+			
+	<!-- Row -->
+			<div class="row">
+				
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-bar-chart" style="color:#d20050;"></i>
+						<h3>KTP with Spencer Ltd</h3>
+						<p>We apply research in data analytics, NLP and AI to analyse company documents, 
+						identify patterns, extract information and generate insights towards more 
+						effective workflows and informed decision support.</p>
+						<p><em>Innovate UK, 2020-22 (PI)</em></p>
+					</div>
+				</div>
+				<!-- /about -->				
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-comments-o" style="color:MediumBlue;"></i>
+						<h3>SESAME - Secure and Safe Multi-Robot Systems</h3>
+						<p>Research to address the openness, uncertainty, variability, and interplay of safety and security in
+multi-robot systems.</p>
+						<a href="https://cordis.europa.eu/project/id/101017258">See Details</a>		
+						<p><em>EU H2020, 2021-24 (CI)</em></p>
+					</div>
+				</div>
+				<!-- /about -->	
+				
+
+				
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-code-fork" style="color:LightSeaGreen;"></i>
+						<h3>Deep Text Generation from Knowledge Graphs</h3>
+						<p>We research hierarchical decomposition approaches for fast 
+						learning in natural language generation systems that can produce
+						high-quality outputs from sparse and unseen knowledge graphs.
+						</p>
+						<p><em>Diffbot (industry grant), 2017-19 (PI)</em></p>
+					</div>
+				</div>
+				<!-- /about -->				
+
+
+			</div>
+			<!-- /Row -->				
+
+	<!-- Row -->
+			<div class="row">
+				
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-balance-scale" style="color:LightSeaGreen;"></i>
+						<h3>Text mining of legal documents using an interactive learning approach</h3>
+						<p>The key aim of this project is to semi-automate the analysis of legal documents with an 
+						intelligent software that can extract prominent themes from a document, identify likely areas for legal attention and generate a list of suggested amendments to the document..</p>
+						<p>With legal firm <a href="https://www.rradar.com/">rradar</a>.</p>
+						<p><em>HEIF, 2019 (PI)</em></p>
+					</div>
+				</div>
+				<!-- /about -->				
+
+			</div>
+			<!-- /Row -->	
+
+
+			</div>
+			<!-- /Row -->				
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->	
 
 	<!-- Team -->
-	<div id="team" class="section md-padding">
+	<div id="team" class="section md-padding bg-grey">
 
 		<!-- Container -->
 		<div class="container">
@@ -201,47 +401,65 @@
 				</div>
 				<!-- /Section header -->
 
-<h6>Dr Nina Dethlefs</h6>, Lecturer &nbsp;&nbsp;
+<h6>Dr Nina Dethlefs</h6>, Senior Lecturer &nbsp;&nbsp;
 <a href="mailto:n.dethlefs@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
 <a href="https://bda-hull.github.io/nina.html"><i class="fa fa-home"></i></a>
 <a href="https://scholar.google.com/citations?user=dv1RKmIAAAAJ&hl=en"><i class="fa fa-google"></i></a>
 <a href="https://www.linkedin.com/in/nina-dethlefs-17750486"><i class="fa fa-linkedin-square" ></i></a>
-<a href="https://github.com/ndethlefs"><i class="fa fa-git"></i></a>
+<a href="https://github.com/ndethlefs"><i class="fa fa-git"></i></a>			
 <br> Natural language processing, interactive systems, artificial intelligence 
-<br><br>
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
 
-<h6>Lydia Bryan-Smith</h6></a>, PhD student &nbsp;&nbsp;
-<a href="mailto:L.Bryan-Smith-2014@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
-<br> Artificial intelligence, flood modelling, social media analysis
-<br><br>
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/nina.png" alt="" width="150" align="right">	
+I am a Senior Lecturer in <a href="https://www.hull.ac.uk/faculties/subjects/computer-science.aspx">Computer Science</a> at the <a href="https://www.hull.ac.uk/index.aspx">University of Hull</a>, Yorkshire, UK, where I lead the Big Data Analytics Research group. 
+I am also currently Director of Research for Computer Science and Technology and Aura CDT Theme lead for "Big data, sensors and digitalisation for the offshore environment".							
+Before coming to Hull, I was a Research Fellow in the <a href="https://sites.google.com/site/hwinteractionlab/">The Interaction Lab</a> at <a href="https://www.hw.ac.uk/">Heriot-Watt University</a>, Edinburgh. I have a PhD in Computational Linguistics from the <a href="https://www.uni-bremen.de/">University of Bremen</a>, Germany.</p>
+<p>My research interests lie at the intersection of machine learning and natural language processing (NLP), particularly in the areas of data-to-text and natural language generation (NLG), interactive systems, assistive technologies, 
+ domain transfer and adaptability for data analytics in a wider AI context. I have spent the last few years working with neural networks as a primary algorithm family but have previously worked with graphical models, clustering and 
+reinforcement learning. 
+Most recently I have become interested in applying AI and NLP in "useful" contexts such as mental health  and
+the environment, particularly towards sustainability. I am interested in the digitalisation of the offshore wind industry to 
+make wind turbines more reliable. I am also interested in the effects of human activity on water quality and the forecasting of 
+natural events such as floods. When I have time I do some research in digital conservation using AI and text classification.</p>
+</details>
+</abstract>
+</ul>	
+<br>
 
-<h6>Joyjit Chatterjee</h6>, PhD student &nbsp;&nbsp;
-<a href="mailto:J.Chatterjee-2018@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
-<a href="https://joyjitchatterjee.github.io/"><i class="fa fa-home"></i></a>
-<a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en"><i class="fa fa-google"></i></a>
-<a href="https://www.linkedin.com/in/joyjitchatterjee/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
-<a href="https://github.com/joyjitchatterjee"><i class="fa fa-git"></i></a>
-<br> Artificial intelligence, wind turbines, green energy, natural language processing
-<br><br>
+<h6>Dr Alex Turner</h6>, Affiliate, now Assistant Professor at Nottingham University &nbsp;&nbsp;
+<a href="mailto:Alexander.Turner@nottingham.ac.uk"><i class="fa fa-envelope"></i></a> 
+<a href="https://www.nottingham.ac.uk/computerscience/people/alexander.turner"><i class="fa fa-home"></i></a>
+<a href="https://scholar.google.co.uk/citations?user=XJ8sNiIAAAAJ&hl=en"><i class="fa fa-google"></i></a>
+<br> Artificial intelligence, healthcare, complex dynamical systems
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
 
-
-<h6>Onatkut Dagtekin</h6>, PhD Student &nbsp;&nbsp;
-<a href="mailto:O.Dagtekin-2019@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
-<a href="https://www.researchgate.net/profile/Onatkut_Dagtekin"><i class="fa fa-home"></i></a>
-<a href="https://scholar.google.com/citations?user=tJKdwIQAAAAJ&hl=en"><i class="fa fa-google"></i></a>
-<br> Artificial intelligence, machine learning, environmental modelling, natural language processing
-<br><br>
-
-
-<h6>Albert Dulian</h6>, PhD student
-&nbsp;&nbsp;
-<a href="mailto:A.Dulian-2013@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
-<a href="https://www.researchgate.net/profile/Albert_Dulian"><i class="fa fa-home"></i></a>
-<a href="https://scholar.google.com/citations?user=vatMneoAAAAJ&hl=en"><i class="fa fa-google"></i></a>
-<a href="https://www.linkedin.com/in/albert-dulian-a3a78412a/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
-<a href="https://github.com/ADulian"><i class="fa fa-git"></i></a>
-<br> Deep learning, computer vision, reinforcement learning, self-driving vehicles
-<br><br>
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/alex.jpg" alt="" width="150" align="right">	
+Alex is an Assistant Professor in the <a href="https://www.nottingham.ac.uk/computerscience/">School of Computer Science</a>. at the <a href="https://www.nottingham.ac.uk/">University of Nottingham</a>. Prior to this, he was a lecturer in Computer Science at the University of Hull and a Post Doctoral Researcher in the Department of Electronic Engineering at the University of York, where he obtained his PhD. His MSc was awarded in the Department of Computer Science at the University of York. 
+Alex has previously taught modules in procedural programing, object-oriented programming and artificial intelligence.</p>
+<p>Alex's main research interests are focused on the development of new technologies to improve the diagnosis and treatments of movement disorders, 
+with a particular focus on gait and ambulation. Sufferers of movement disorders find a distinct amount of heterogeneity in their 
+symptoms day by day, and typical treatment updates are sparse due to both the complicated nature of the diseases and the 
+limited face to face time available with specialists. To try and solve this, novel sensors in combination with machine learning 
+can be used to provide day to day updates of a patient's movement, which can use used to develop autonomous physiotherapy 
+updates and well as guide changes in treatment.</p><p> In addition he also works in the development of transparent machine learning 
+models which can provide a rationale for their decision making process. He is also interested in the application of machine 
+learning in the biological sciences both to improve disease diagnosis and on understanding biological evolution and climate change.</p>
+</details>
+</abstract>
+</ul>	
+<br>
 
 <h6>Dr Bikash Gyawali</h6>, KTP Associate
 &nbsp;&nbsp;
@@ -249,53 +467,259 @@
 <a href="https://scholar.google.com/citations?user=k78ZknsAAAAJ&hl=en"><i class="fa fa-google"></i></a>
 <a href="https://www.linkedin.com/in/bikash-gyawali-1b26476a/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
 <br> Artificial intelligence, data analysis, natural language processing
-<br><br>
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/bikash.jpeg" alt="" width="100" align="right">	
+I am a researcher working in Natural Language Processing and Big Data Systems. Over the last five years, I have worked as 
+a full time researcher on several topics related to Natural Language Understanding and Generation, Deep Learning, Big Data 
+Analysis and Text Mining of scientific documents. </p>
+
+<p> Bikash is currently an KTP Associate with Spencer Ltd and is applying modern deep learning techniques to text analysis
+and document classification to optimise Spencer's workflows and productivity.
+Bikash holds a PhD from the Université de Lorraine in France (2015). 
+</p>
+</details>
+</abstract>
+</ul>	
+<br>
+
+<h6>Lydia Bryan-Smith</h6>, PhD student
+&nbsp;&nbsp;
+<a href="mailto:L.Bryan-Smith-2014@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
+<br> Artificial intelligence, machine learning, environmental modelling, social media analysis
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p>
+Lydia is a PhD researcher in Computer Science at the University of Hull, previously having graduated from Hull with an MSc. 
+Her PhD project investigates deep learning algorithms for real-time flood prediction from multiple disparate data sources. An
+underlying idea of Lydia's research is to combine traditional hydro-dynamic flood models with modern AI techniques to achieve 
+a balance between high accuracy of forecasts and efficient predictions. The learning models are trained with information from 
+different sources including heights maps of the geographical area, dynamic rainfall radar data, as well as social media posts.
+</p>
+</details>
+</abstract>
+</ul>	
+<br>
+
+<h6>Joyjit Chatterjee</h6>, PhD student 
+<a href="mailto:J.Chatterjee-2018@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
+<a href="https://joyjitchatterjee.github.io/"><i class="fa fa-home"></i></a>
+<a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en"><i class="fa fa-google"></i></a>
+<a href="https://www.linkedin.com/in/joyjitchatterjee/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
+<a href="https://github.com/joyjitchatterjee"><i class="fa fa-git"></i></a>
+<br> Artificial intelligence, wind turbines, green energy, natural language processing
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/joyjit.jpg" alt="" width="150" align="right">	
+Joyjit is a Final Year PhD. Computer Science Researcher at the University of Hull, Yorkshire, UK. He is presently 
+researching in the area of tackling climate change with AI, by helping make wind energy sources more reliable, through 
+explainable and intelligent decision support in their operations & maintenance. During his PhD., he has closely collaborated 
+with leading wind farm operators and research organisations as a part of the Aura Innovation Centre, UK’s PhD. cluster. He is a 
+Chartered Engineer, MIET, MIEEE, AMIE, Jr. Member of Isaac Newton Institute for Mathematical Sciences, Cambridge & Life Member of 
+Indian Science Congress Association. He is a certified Professional Scrum Master (PSM-1) with a sound understanding of the 
+industry. Joyjit also holds a Postgraduate Diploma in Research Training (Hull, UK), Professional Certificate in AI (Oxford, UK), 
+and Bachelors in Electronics & Communication Engg. (Gold Medalist-Amity University, India). He has published an array of papers 
+in Computer Science & Engineering (including in leading A*/A ranked AI conferences/workshops such as NeurIPS, KDD, IJCNN, ECAI 
+etc., and reputed journals by Wiley, IOP etc.). As a global researcher, he has co-authored papers & filed patents with reputed 
+academicians from across Europe, North America and Asia in AI, NLG & Signal Processing, and delivered talks at leading research 
+institutions globally (such as Carnegie Mellon University, ETH Zurich etc.). Joyjit was also a Visiting Researcher at Tamkang 
+University, Taiwan on a government funded research project. Joyjit regularly serves on the programme committee/as reviewer for 
+leading international conferences/workshops (such as ICLR, NeurIPS etc.) and high-impact journals.
+Joyjit is the recipient of several honours & awards including PhD. Scholarship (Hull, UK), Employability Award for Postgraduate 
+Researchers (Hull, UK), funding towards conference presentations from reputed international organisations such as IEEE CIS, 
+Microsoft Research etc., Scholarship for the Global Impact Challenge 2020 (Nudge, Netherlands), Young Researcher Award 
+(IEEE UK & Ireland Section), Gold Medal and Scholarship (Amity University, India), Alumni Achiever Award for Outstanding 
+Contribution in Education (Amity University, India) and several other awards, certifications and honours from governments, 
+industry and academia. His research interests span Deep Learning, Natural Language Generation, Data Analytics, Knowledge Graphs,
+Causal Inference and Time-Series Analysis.</p>
+</details>
+</abstract>
+</ul>	
+<br>
+
+<h6>Onatkut Dagtekin</h6>, PhD Student &nbsp;&nbsp;
+<a href="mailto:O.Dagtekin-2019@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
+<a href="https://www.researchgate.net/profile/Onatkut_Dagtekin"><i class="fa fa-home"></i></a>
+<a href="https://scholar.google.com/citations?user=tJKdwIQAAAAJ&hl=en"><i class="fa fa-google"></i></a>
+<br> Artificial intelligence, machine learning, environmental modelling, natural language processing
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+<span style="color:#6195FF">Full profile</span>
+</summary>
+Onatkut is currently a PhD student in Computer Science at the University of Hull. He holds an MSc degree from the University
+of Manchester. For his PhD project, he 
+ investigates deep learning techniques to discover key predictors of water quality from 
+high-frequency sensor outputs. These techniques aim to be as much as possible independent of particular geographical 
+locations but rather rooted in the environmental context in which they occur. This can make them potentially transferable 
+across different water bodies and regions of the world, including e.g. phenomena such as proximity of water to farmland, 
+caves, industrial activity, impact of natural phenomena, such as land slides, floods, and other weather events. The
+overarching goal of the project is to be able to understand and predict the impact of human activity on aquatic 
+ecosystems and wildlife. 
+</p>
+ 
+</details>
+</abstract>
+</ul>	
+<br>
+
+<h6>Albert Dulian</h6>, PhD student, now also Deep Learning Scientist at <a href="https://www.vicon.com/">Vicon</a>
+&nbsp;&nbsp;
+<a href="mailto:A.Dulian-2013@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
+<a href="https://www.researchgate.net/profile/Albert_Dulian"><i class="fa fa-home"></i></a>
+<a href="https://scholar.google.com/citations?user=vatMneoAAAAJ&hl=en"><i class="fa fa-google"></i></a>
+<a href="https://www.linkedin.com/in/albert-dulian-a3a78412a/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
+<a href="https://github.com/ADulian"><i class="fa fa-git"></i></a>
+<br> Deep learning, computer vision, reinforcement learning, self-driving vehicles
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/albert1.jpg" alt="" width="150" align="right">	
+Albert is currently at PhD student at the University of Hull and a Deep Learning Scientist at Vicon. His
+ area of research focuses on exploring how Machine Learning algorithms, specifically novel Deep Neural Networks can be utilised 
+ within the domain of Autonomous Transportation to improve current approaches towards short-term motion prediction.</p>
+ <p> An important contribution of his PhD has been on the short-term motion prediction of nearby agents in an autonomous driving
+ scenario. This kind of research is essential for the safety of passengers, pedestrians and other agents. In contrast to existing 
+approaches, Albert has demonstrated the effectiveness of Capsule Networks for the task, which excel particularly due to their 
+ability to maintain hierarchical relationships between image features.</p>
+ 
+</details>
+</abstract>
+</ul>	
+<br>
 
 <h6>Matthew Hartley</h6>, PhD student 
 &nbsp;&nbsp;
 <a href="mailto:Matthew.Hartley-2018@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
 <a href="https://www.linkedin.com/in/matthew-hartley-884a5441/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
 <br> Deep learning, radar scan analysis
-<br><br>
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+
+<span style="color:#6195FF">Full profile</span>
+</summary>
+Matt is currently a PhD researcher in Computer Science working on distinguishing birds from other non-biological targets
+from high-frequency radar data, as well as classifying different types of bird species. He is researching novel deep learning
+algorithms, particularly from the area of computer vision, and their efficient application to noise reduction and classification.
+
+</p>
+</details>
+</abstract>
+</ul>	
+<br>
 
 
-<a href="george.html"><h6>George Lacey</h6></a>, PhD student
+<h6>George Lacey</h6>, PhD student
 &nbsp;&nbsp;
 <a href="mailto:G.A.Lacey-2014@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
 <a href="https://www.researchgate.net/profile/George_Lacey"><i class="fa fa-home"></i></a>
 <a href="https://scholar.google.co.uk/citations?user=LlM77wkAAAAJ&hl=en"><i class="fa fa-google"></i></a>
 <a href="https://github.com/georgelacey"><i class="fa fa-git"></i></a>
 <br> Deep learning, computer vision, reinforcement learning, self-driving vehicles
-<br><br>
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/george.jpg" alt="" width="120" align="right">	
+George is currently a PhD student in Computer Science at the University of Hull. His research focuses on transparency 
+in machine learning through the investigation of biologicall-inspired networks, such as
+epigenetic networks which are applied to solve tasks in complex dynamical systems.</p>
+<p>A key contribution of his PhD has been the application of epigenetic layers within deep neural network architectures to 
+increase the transparency of the latter. A deeper understanding of the model's inner workings can be gained by 
+distinguishing parts of the evolving network that are crucial during prediction tasks and those which have a negligible effect 
+and can be 
+deactivated for increased efficiency during training.
+</p>
+</details>
+</abstract>
+</ul>	
+<br>
 
 
-<a href="luana.html"><h6>Luana Mincarelli</h6></a>, PhD student 
+<h6>Luana Mincarelli</h6>, PhD student 
 &nbsp;&nbsp;
 <a href="mailto:L.F.Mincarelli-2018@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
 <a href="https://www.chemecolhull.com/luana-fiorella-mincarelli/"><i class="fa fa-home"></i></a>
 <a href="https://scholar.google.it/citations?user=TU1dLFsAAAAJ&hl=it"><i class="fa fa-google"></i></a>
 <a href="https://www.linkedin.com/in/luanamincarelli/?originalSubdomain=it"><i class="fa fa-linkedin-square" ></i></a>
 <br> Marine biology
-<br><br>
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
+
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/luana.jpg" alt="" width="150" align="right">	
+The aim of my PhD project is to investigate how different combined stressors act in the environment, with particular attention to biological responses in mussels.
+</p>
+<p>
+I obtained an MSc in Marine Biology at Marche Polytechnic University (Ancona, Italy), working on a project concerning the modulatory effect of climate change (global warming and ocean acidification) and heavy metals exposure on biological responses of the Mediterranean mussel Mytilus galloprovincialis.
+</p>
+<p>
+The first part of my PhD involves the exposure of the blue mussel Mytilus edulis to several stress compounds. At the moment, I’m studying how different temperatures and phthalate exposure can affect biological responses of blue mussels. Finally, the second part of my project will involve data analysis: at the end of my PhD, I would like to have collected enough data to use artificial intelligence and machine learning for simulating future climate conditions and consequence for mussel populations.</p>
+</details>
+</abstract>
+</ul>	
+<br>
 
 
-<a href="annika.html"><h6>Annika Schoene</h6></a>, PhD student 
-&nbsp;&nbsp;
-<a href="mailto:A.M.Schoene-2017@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
-<a href="https://annikamarie.github.io/"><i class="fa fa-home"></i></a>
-<a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en"><i class="fa fa-google"></i></a>
-<a href="https://www.linkedin.com/in/annika-schoene-740300114/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
-<br> Deep learning, machine learning, sentiment analysis, natural language processing
-<br><br>
-
-<a href="eva.html"><h6>Eva Sousa</h6></a>, PhD student 
+<h6>Eva Sousa</h6>, PhD student 
 &nbsp;&nbsp;
 <a href="mailto:e.sousa-2018@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
 <a href="https://www.linkedin.com/in/evsousa/?originalSubdomain=pt"><i class="fa fa-linkedin-square" ></i></a>
 <br> Artificial intelligence, medical imaging
-<br><br>
+<br>
+<ul class="blog-meta">
+<abstract style="display:inline" ;>
+<details close style="display:inline;">
+<summary>
 
+<span style="color:#6195FF">Full profile</span>
+</summary>
+<p><img class="img-responsive" src="./img/eva.jpg" alt="" width="150" align="right">	
+I Licentiated in Nuclear Medicine in 2006 from Escola Superior de Tecnologia da Saúde de Lisboa – Instituto Politécnico de Lisboa (ESTeSL-IPL). Following, I finnished my MSc in Biophysics and Medical Physics in 2009, from Instituto de Biofísica e Engenharia Biomédica, da Faculdade de Ciências da Universidade de Lisboa (IBEB-FCUL. Concluded one Biomedical Engineering Specialization in 2014 from Faculdade de Ciências e Tecnologias da Universidade de Coimbra (FCTUC). I am presently student PhD Student in University of Hull.</p>
+<p>From September of 2008 to September of 2018, I was full-time Assistant Lecturer in ESTeSL-IPL. Lecturing in the degrees of Nuclear Medicine and Medical Imaging and RadiotherapyDuring this time, I collected some experience of lecturing in different Institutions abroad under Erasmus Program in 2010 (Karolinska Institutet – Sweden); 2012 and 2013 in NuPHiCos (Medical University of Plovdiv – Bulgaria); 2015 (Institute Paul Lambin – Brussels). And From 2012 to 2018 I coordinate the entrepreneurship Program of ESTeSL-IPL.</p>
+<p>I collaborated with some research teams and projects and have being member of Member of the Research Groups GI-MOSM and  GIRES. I have collaborated in some funded research projects by Instituto Politécnico de Lisboa, with the fellowship (IDI&CA) do IPL – 2016. </p>
+<p>As hobbies I am also a writer, blogger and volunteer.</p>
+</details>
+</abstract>
+</ul>	
+<br>
 
+</div></div></div>
 	<!-- Alumni -->
 	<div id="team" class="section md-padding">
 
@@ -307,20 +731,20 @@
 		
 
 				<!-- Section header -->
-				<div class="section-header text-center">
+				<div class="section-header text-center ">
 					<h2 class="title">Alumni</h2>
 				</div>
 				<!-- /Section header -->
 				
 
 
-
-
-<h6>Dr Alex Turner</h6>, Lecturer, now Assistant Professor at Nottingham University &nbsp;&nbsp;
-<a href="mailto:Alexander.Turner@nottingham.ac.uk"><i class="fa fa-envelope"></i></a> 
-<a href="https://www.nottingham.ac.uk/computerscience/people/alexander.turner"><i class="fa fa-home"></i></a>
-<a href="https://scholar.google.co.uk/citations?user=XJ8sNiIAAAAJ&hl=en"><i class="fa fa-google"></i></a>
-<br> Artificial intelligence, healthcare, complex dynamical systems
+<a href="annika.html"><h6>Dr Annika Schoene</h6></a>, PhD student, now at <a href="http://www.nactem.ac.uk/">NaCTeM</a>, University of Manchester.
+&nbsp;&nbsp;
+<a href="mailto:A.M.Schoene-2017@hull.ac.uk"><i class="fa fa-envelope"></i></a> 
+<a href="https://annikamarie.github.io/"><i class="fa fa-home"></i></a>
+<a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en"><i class="fa fa-google"></i></a>
+<a href="https://www.linkedin.com/in/annika-schoene-740300114/?originalSubdomain=uk"><i class="fa fa-linkedin-square" ></i></a>
+<br> Deep learning, machine learning, sentiment analysis, natural language processing
 <br><br>
 
 <h6>Dr Ric Colasanti</h6>, Postdoctoral Researcher, now at Bournemouth University<br>
@@ -332,7 +756,7 @@ Deep learning, computer vision
 <br><br>
 
 				
-
+</div></div></div></div>
 		
 
 	<!-- Blog -->
@@ -346,14 +770,111 @@ Deep learning, computer vision
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">News, Projects and Activities</h2>
+					<h2 class="title">News & Activities</h2>
 				</div>
 				<!-- /Section header -->
 
 
 				<div class="row">
 				<!-- blog -->
+
+				<!-- blog -->
+	<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive"  src="./img/natural.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
+								<li><i class="fa fa-clock-o"></i>May 2021</li>
+							</ul>
+							<h3>EPSRC Supergen ORE grant</h3>
+							<p>We won an EPSRC Supergen ORE grant with <a href="https://www.hull.ac.uk/staff-directory/agota-mockute">Agota Mockute</a> at the <a href="https://www.hull.ac.uk/work-with-us/research/institutes/energy-and-environment-institute">EEI</a> and 
+							<a href="https://www.sheffield.ac.uk/mecheng/people/academic/elizabeth-cross">Lizzy Cross</a> from Sheffield and a group of strong industry partners. We'll be predicting fatigue levels of wind turbines
+							using deep learning and physical modelling.
+See details <a href="https://supergen-ore.net/projects/machine-learning-for-fatigue-assessments-offshore-wind-farms">here</a>.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->	
+		
+				<!-- blog -->
+	<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<video width="370" controls>
+							  <source src="./img/joyjit_nudge.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en">Joyjit</a></li>
+								<li><i class="fa fa-clock-o"></i>May 2021</li>
+							</ul>
+							<h3>Nudge Sustainable Impact Challenge <i class="fa fa-leaf" style="color:LimeGreen;"></i></h3>
+							<p>Congratulations to Joyjit for completing the <a href="https://www.nudgeglobalimpactchallenge.com/">
+							Nudge Global Impact Challenge</a> that selects young research leaders to develop their own 
+							sustainability research plans. See Joyjit's <a href="https://www.youtube.com/watch?v=xKX_vtGnqNg">promotional video</a>
+							pitching his PhD project here.
+							 </p>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->				
+
+				<!-- blog -->
+	<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive"  src="./img/farewell_annika.jpeg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
+								<li><i class="fa fa-clock-o"></i>Feb 2021</li>
+							</ul>
+							<h3>Congrats Annika! <i class="fa fa-trophy" style="color:Gold;"></i></h3>
+							<p>Congratulations to <a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Dr Annika Schoene</a>, one of our founding members, 
+							who has successfully passed her viva and is leaving us to take up a postdoctoral 
+							position at the University of Manchester. Keep in touch, Annika!
+						 </p>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+			
+					
+									
+				<!-- /blog -->
+						</div>
+
+				<div class="row">
+				<!-- blog -->
+
+				<!-- blog -->
+	<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive"  src="./img/rb_ktp_tree.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>							
+								<li><i class="fa fa-clock-o"></i>Jan 2021</li>
+							</ul>
+							<h3>KTP with reckitt</h3>
+							<p>We are really excited to be working with <a href="https://www.reckitt.com/">reckitt</a> on a 2-year KTP project 
+							to develop novel AI techniques to improve stability testing and new product development, and
+							accelerate product development from design over testing to manufacturing.
+							What an amazing opportunity!
+							 </p>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->	
 				
+
 				<!-- blog -->
 	<div class="col-md-4">
 					<div class="blog">
@@ -362,7 +883,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="joyjit.html">Joyjit</a>, <i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en">Joyjit</a>, <i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>Dec 2019</li>
 							</ul>
 							<h3>NeurIPS 2019</h3>
@@ -384,7 +905,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>Nov 2019</li>
 							</ul>
 							<h3>EMNLP-2019 in Hong Kong</h3>
@@ -403,7 +924,6 @@ Deep learning, computer vision
 				<!-- /blog -->
 						</div>
 
-
 				<div class="row">
 				<!-- blog -->
 				
@@ -415,7 +935,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="joyjit.html">Joyjit</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en">Joyjit</a></li>
 								<li><i class="fa fa-clock-o"></i>Oct 2019</li>
 							</ul>
 							<h3>Offshore Wind Hackathon, Glasgow</h3>
@@ -434,7 +954,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>Oct 2019</li>
 							</ul>
 							<h3>Knowledge Transfer Partnership on AI / NLP</h3>
@@ -457,7 +977,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>July 2019</li>
 							</ul>
 							<h3>MLSS-2019, London</h3>
@@ -485,7 +1005,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>22-25 Jan 2019</li>
 							</ul>
 							<h3>Deep Learning Week 2019</h3>
@@ -506,12 +1026,11 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>4 Feb 2019</li>
 							</ul>
 							<h3>Aura Centre for Doctoral Training in Offshore Wind and the Environment</h3>
-							<p>We are part of Hull's new £5.5 million worth EPSRC and NERC-funded CDT in Offshore Wind and the Environment together with partners Durham, Newcastle and Sheffield.
-							Picture and announcement at <a href="https://nerc.ukri.org/press/releases/2019/05-cdt/">NERC</a>.
+							<p>We are part of Hull's new EPSRC and NERC-funded CDT in Offshore Wind and the Environment together with partners Durham, Newcastle and Sheffield.
 							See <a href="https://auracdt.hull.ac.uk">here</a> for website and PhD student recruitment.</p>
 						</div>
 					</div>
@@ -526,7 +1045,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="joyjit.html">Joyjit</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en">Joyjit</a></li>
 								<li><i class="fa fa-clock-o"></i>10 Jan 2019</li>
 							</ul>
 							<h3>Northern Lights in Troms&oslash</h3>
@@ -548,7 +1067,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>20 Dec 2018</li>
 							</ul>
 							<h3>GPU programming for Deep Learning -- Jan 24/25 2019</h3>
@@ -571,7 +1090,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>7 Dec 2018</li>
 							</ul>
 							<h3>Christmas Poster Workshop</h3>
@@ -589,7 +1108,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="joyjit.html">Joyjit</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en">Joyjit</a></li>
 								<li><i class="fa fa-clock-o"></i>22 Nov 2018</li>
 							</ul>
 							<h3>ORE Catapult Visit in Glasgow</h3>
@@ -628,7 +1147,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>27 Oct 2018</li>
 							</ul>
 							<h3>2nd Deep Learning Winter School -- Jan 22/23 2019</h3>
@@ -651,7 +1170,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="joyjit.html">Joyjit</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=kjWYrm4AAAAJ&hl=en">Joyjit</a></li>
 								<li><i class="fa fa-clock-o"></i>25 Oct 2018</li>
 							</ul>
 							<h3>Aura PhD Cluster - Class of 2018</h3>
@@ -673,7 +1192,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="alex.html">Alex</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=XJ8sNiIAAAAJ&hl=en">Alex</a></li>
 								<li><i class="fa fa-clock-o"></i>22 Oct 2018</li>
 							</ul>
 							<h3>Post-doctoral research assistant - 15 Nov</h3>
@@ -694,7 +1213,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>23 Oct 2018</li>
 							</ul>
 							<h3>PhD scholarship - Deep learning for water sensing</h3>
@@ -715,7 +1234,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>23 Oct 2018</li>
 							</ul>
 							<h3>PhD scholarship - Deep learning for flood risk mapping</h3>
@@ -739,7 +1258,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>10 Sep 2018</li>
 							</ul>
 							<h3>Research Internship at IBM</h3>
@@ -758,7 +1277,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>13 Sep 2018</li>
 							</ul>
 							<h3>British Science Festival</h3>
@@ -778,7 +1297,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a>, <i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a>, <i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>17 Sep 2018</li>
 							</ul>
 							<h3>The Conversation</h3>
@@ -801,12 +1320,12 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">				
-								<li><i class="fa fa-user"></i><a href="alex.html">Alex</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=XJ8sNiIAAAAJ&hl=en">Alex</a></li>
 								<li><i class="fa fa-clock-o"></i>4 July 2018</li>
 							</ul>
 							<h3>EPSRC First Grant </h3>
 							<p>Alex Turner got his EPSRC grant on 'Using Epigenetically-Inspired Connectionist Models to Provide Transparency In The Modelling of Human Visceral Leismaniasis'.</p>
-							<a href="news-alex-epsrc.html">Read more</a>
+							<a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S003207/1">See details.</a>
 						</div>
 					</div>
 				</div>
@@ -820,7 +1339,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="nina.html">Nina</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.com/citations?hl=en&user=dv1RKmIAAAAJ&view_op=list_works">Nina</a></li>
 								<li><i class="fa fa-clock-o"></i>17 Sep 2018</li>
 							</ul>
 							<h3>Welcome and big data cake</h3>
@@ -839,7 +1358,7 @@ Deep learning, computer vision
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i><a href="annika.html">Annika</a></li>
+								<li><i class="fa fa-user"></i><a href="https://scholar.google.co.uk/citations?user=rjyW-LUAAAAJ&hl=en">Annika</a></li>
 								<li><i class="fa fa-clock-o"></i>23 Aug 2018</li>
 							</ul>
 							<h3>KDD-2018 in London</h3>
@@ -923,7 +1442,7 @@ Deep learning, computer vision
 			<!-- Row -->
 			<div class="row">
 
-				<div class="col-md-12">
+				<div class="col-md-14">
 
 					<!-- footer logo -->
 					<div class="footer-logo">
